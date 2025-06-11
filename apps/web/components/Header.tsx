@@ -48,8 +48,11 @@ export default function Header() {
           }`}
         >
           <img src="/sign.png" alt="hero" className={styles.heroImage2} />
-
-          <div className={styles.scrollBG}>Scroll</div>
+          <div className={styles.extraHeader}>
+            <a>Arnaudville .</a>
+            <a>. Louisiana</a>
+          </div>
+          <div className={styles.scrollNowBG}>Scroll</div>
         </div>
       )}
 
