@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from '@/components/Header';
 
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,29 +15,11 @@ export default function RootLayout({ children }: { children: React.ReactNode}) {
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <header className="headerMain">
-          <div className="headerLeft">
-            <img src="./myranslogo.png" className="myronsLogo"></img>
-          </div>
+        <Header />
 
-          <nav className="headerNav">
-            <a href="">Menus</a>
-            <a href="">Weekly Ad</a>
-            <a href="">Contact</a>
-            <a href="">About Us</a>
-          </nav>
+        <main>{children}</main>
 
-          <div className="headerRight">
-            <a>Order Now!</a>
-            <a>123-123-4567</a>
-          </div>
-        </header>
-
-        {children}
-
-        <footer>
-          
-        </footer>
+        <footer> </footer>
       </body>
     </html>
   );
