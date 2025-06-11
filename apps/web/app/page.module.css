@@ -166,3 +166,12 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+
+.lexon {
+  background-color: green;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}

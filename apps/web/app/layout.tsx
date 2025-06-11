@@ -24,8 +24,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+      </head>
+      <body>
+        <header className="headerMain">
+          <div className="headerLeft">
+            <h1>Myran's</h1>
+          </div>
+
+          <nav className="headerNav">
+            <a href="">Home</a>
+            <a href="">Weekly Ad</a>
+            <a href="">Contact</a>
+            <a href="">About Us</a>
+          </nav>
+
+          <div className="headerRight">
+            <a>Order Now!</a>
+            <a>123-123-4567</a>
+          </div>
+        </header>
       </body>
     </html>
   );
