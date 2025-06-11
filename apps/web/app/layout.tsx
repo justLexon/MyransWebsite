@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 export const metadata: Metadata = {
@@ -12,14 +13,14 @@ export default function RootLayout({ children }: { children: React.ReactNode}) {
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
       </head>
       <body>
         <Header />
 
         <main>{children}</main>
 
-        <footer> </footer>
+        <Footer />
       </body>
     </html>
   );

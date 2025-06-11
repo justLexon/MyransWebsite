@@ -9,16 +9,13 @@ export default function Home() {
       <main>
         <section className={homeStyles.font1}>
            <a className={homeStyles.no}>
-                <img src="sign.png"></img>
+              yo Gurt
            </a>
         </section>
 
 
       </main>
 
-      <footer className={styles.footer}>
-        <p>© 2025 Myran's Grill. All rights reserved.</p>
-      </footer>
     </div>
   );
 }

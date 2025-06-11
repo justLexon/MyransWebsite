@@ -1,27 +1,23 @@
 .font1 {
     display: flex;
-    height: 200px;
-    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 500px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
     font-size: 25px;
     color: #a72c11;
-    color: #a72c11;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.411);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.527);
     justify-content: center;
     align-self: center;
     text-align: center;
-    background-color: transparent;
+    margin-top: 900px;
+    background-color: #452829;
 }
 
 .no {
-    margin-top: 1500px;
-    margin-right: 5%;
     display: flex;
     align-items: center;
     background-color: transparent;
-}
-
-.no  img{
-    width: 200px;
 }
 
 .homeBG {
