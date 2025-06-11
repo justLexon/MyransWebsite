@@ -1,14 +1,16 @@
 import styles from "./page.module.css";
-
+import homeStyles from "./home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <header className={styles.header}>
-          yoGurt
-        </header>
+      <div className={styles.background}></div>
 
+      <main>
+        <section>
+           yoGurt
+            hey
+        </section>
 
 
       </main>

@@ -1,17 +1,7 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #853100;
-    --foreground: #ededed;
-  }
-}
 
 html,
 body {
+  background-color: #853100;
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -35,18 +25,15 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
 
 .headerMain {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 140px;
-  background-color: rgba(0, 0, 0, 0.459);
+  background-color: #4528298c;
+  z-index: 1000;
 }
 
 .headerLeft {
@@ -86,7 +73,7 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   color: #a72c11;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.493);
   background-color: transparent;
 }
 
@@ -108,19 +95,24 @@ a {
 }
 
 @media (max-width: 1200px) {
+  .headerLeft {
+    margin-left: 20px;
+  }
+
   .headerRight {
     font-size: 15px;
+    margin-right: 15px;
   }
 
   .headerNav {
-    font-size: 18px;
+    font-size: 15px;
     gap: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 5px;
   }
 
   .myronsLogo {
-    width: 120px;
+    width: 100px;
   }
   
 }
