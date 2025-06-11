@@ -7,9 +7,10 @@ export default function Home() {
       <div className={styles.background}></div>
 
       <main>
-        <section>
-           yoGurt
-            hey
+        <section className={homeStyles.font1}>
+           <a className={homeStyles.no}>
+              <img src="sign.png"></img>
+           </a>
         </section>
 
 

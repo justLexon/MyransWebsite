@@ -1,6 +1,33 @@
+.font1 {
+    display: flex;
+    height: 200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #a72c11;
+    color: #a72c11;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.411);
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: green;
+}
+
+.no {
+    margin-top: 50%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.no  img{
+    width: 200px;
+}
+
 .homeBG {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .homeBG img{
