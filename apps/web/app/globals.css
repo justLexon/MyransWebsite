@@ -43,6 +43,7 @@ a {
 
 .headerMain {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 140px;
   background-color: rgba(0, 0, 0, 0.459);
@@ -50,34 +51,65 @@ a {
 
 .headerLeft {
   display: flex;
-  justify-content: center;
+  flex: 1;
+  justify-content: left;
   align-items: center;
-  margin-left: 30px;
-  margin-right: 30px;
-  background-color: rgb(67, 92, 83);
+  margin-left: 75px;
+  background-color: transparent;
 }
 
 .headerRight {
-  background-color: #02585e;
+  flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: right;
   align-items: center;
-  width: 100%;
-  max-width: 200px;
-  margin-right: 30px;
-}
-
-.headerNav {
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  max-width: 800px;
-  margin-right: 30px;
+  margin-right: 75px;
   font-family: 'Inter', sans-serif;
-  font-size: 28px;
   font-weight: 1000;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
+  font-size: 28px;
+  background-color: transparent;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 42px;
+  font-weight: 1000;
+  /* Change Padding and Gap to make center Header Nav bigger or smaller */
+  gap: 180px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #a72c11;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
+  background-color: transparent;
+}
+
+.myronsLogo {
+  width: 160px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .headerRight {
+    font-size: 15px;
+  }
+
+  .headerNav {
+    font-size: 18px;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .myronsLogo {
+    width: 120px;
+  }
+  
 }
