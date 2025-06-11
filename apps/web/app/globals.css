@@ -52,9 +52,9 @@ a {
 .headerLeft {
   display: flex;
   flex: 1;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  margin-left: 75px;
+  margin-left: 50px;
   background-color: transparent;
 }
 
@@ -64,12 +64,12 @@ a {
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  margin-right: 75px;
+  margin-right: 50px;
   font-family: 'Inter', sans-serif;
   font-weight: 1000;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
-  font-size: 28px;
+  font-size: 23px;
   background-color: transparent;
 }
 
@@ -78,12 +78,13 @@ a {
   justify-content: space-between;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-size: 42px;
+  font-size: 41px;
   font-weight: 1000;
+  text-transform: uppercase;
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
-  gap: 180px;
-  padding-left: 40px;
-  padding-right: 40px;
+  gap: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
   background-color: transparent;
@@ -95,6 +96,16 @@ a {
 
 
 
+@media (max-width: 1700px) {
+  .headerRight {
+    font-size: 18px;
+  }
+
+  .headerNav {
+    font-size: 28px;
+    gap: 70px;
+  }
+}
 
 @media (max-width: 1200px) {
   .headerRight {

@@ -35,7 +35,7 @@ export default function RootLayout({
           </div>
 
           <nav className="headerNav">
-            <a href="">Home</a>
+            <a href="">Menus</a>
             <a href="">Weekly Ad</a>
             <a href="">Contact</a>
             <a href="">About Us</a>
