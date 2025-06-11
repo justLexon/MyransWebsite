@@ -44,6 +44,7 @@ export default function Header() {
       {isHome && !scrolled && (
         <div className={styles.heroImageWrapper}>
           <img src="/sign.png" alt="hero" className={styles.heroImage} />
+          <div className={styles.scrollBG}>Scroll</div>
         </div>
       )}
     </header>
