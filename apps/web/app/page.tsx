@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <section className={homeStyles.font1}>
            <a className={homeStyles.no}>
-              {/* <img src="sign.png"></img> */}
+                <img src="sign.png"></img>
            </a>
         </section>
 

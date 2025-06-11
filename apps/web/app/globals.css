@@ -27,12 +27,15 @@ a {
 
 
 .headerMain {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 140px;
-  background-color: #4528298c;
+  background-color: #2516169d;
   z-index: 1000;
 }
 
