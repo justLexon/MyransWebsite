@@ -55,8 +55,8 @@
 .extraHeader {
   font-family: 'League Spartan', sans-serif;
   font-weight: 900;
-  color: #a72c11;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.74);
+  color: #d66760;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
   font-size: 50px;
   margin-top: -240px;
   width: 100%;
