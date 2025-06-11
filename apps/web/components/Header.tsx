@@ -14,14 +14,13 @@ export default function Header() {
     if (!isHome) return;
 
     const onScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 70);
     };
 
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
   }, [isHome]);
 
-  const headerClass = `${styles.header} ${isHome ? styles.home : ''} ${scrolled ? styles.shrink : ''}`;
 
   return (
     <header className="headerMain">
@@ -41,12 +40,31 @@ export default function Header() {
         <a>123-123-4567</a>
       </div>
 
-      {isHome && !scrolled && (
+
+      {isHome && (
+        <div
+          className={`${styles.heroImageWrapper2} ${
+            scrolled ? styles.hidden : ''
+          }`}
+        >
+          <img src="/sign.png" alt="hero" className={styles.heroImage2} />
+
+          <div className={styles.scrollBG}>Scroll</div>
+        </div>
+      )}
+
+
+
+      {/* {isHome && !scrolled && (
         <div className={styles.heroImageWrapper}>
           <img src="/sign.png" alt="hero" className={styles.heroImage} />
           <div className={styles.scrollBG}>Scroll</div>
         </div>
-      )}
+      )} */}
+
+
+
+
     </header>
   );
 }

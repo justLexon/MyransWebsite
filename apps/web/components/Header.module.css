@@ -32,3 +32,37 @@
   -webkit-text-stroke: 2px rgba(255, 255, 255, 0.747);
   background-color: rgba(255, 255, 255, 0.308);
 }
+
+
+/* ***************** */
+
+
+/* wrapper sits in the header, centred */
+.heroImageWrapper2 {
+  position: absolute;
+  top: 100px;              /* tweak for your header height */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* fade & scale transitions */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+}
+
+.heroImageWrapper2.hidden {
+  opacity: 0;
+  transform: translateX(-50%) scale(1) translateY(-10px);
+  pointer-events: none;     /* ignore clicks when hidden */
+}
+
+/* the round image */
+.heroImage2 {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
