@@ -59,7 +59,14 @@ export default function Header() {
               <a>Louisiana</a>
             </div>
           </div>
-          <div className={styles.scrollNowBG}>Scroll</div>
+          <div className={styles.scrollNowBG}>
+            <div className={styles.scrollText}>
+              <a>Scroll</a>
+            </div>
+            <div className={styles.arrow}>
+              <a>^</a>
+            </div>
+          </div>
         </div>
       )}
 

@@ -8,9 +8,11 @@ export default function Home() {
 
       <main>
         <section className={homeStyles.font1}>
-           <a className={homeStyles.no}>
-              yo Gurt
-           </a>
+           <div className={homeStyles.no}>
+              <a>yoGurt</a>
+              <a>yoGurt</a>
+              <a>yoGurt</a>
+           </div>
         </section>
 
 
