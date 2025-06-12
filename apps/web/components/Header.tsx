@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import styles from './Header.module.css';
@@ -25,14 +27,22 @@ export default function Header() {
   return (
     <header className="headerMain">
       <div className="headerLeft">
-        <img src="/myranslogo.png" className="myronsLogo" alt="logo" />
+        <Link href="/">
+          <Image 
+            src="/myranslogo.png" 
+            alt="logo" 
+            className="myronsLogo" 
+            width={160}
+            height={75}
+          />
+        </Link>
       </div>
 
       <nav className="headerNav">
-        <a href="#">Menus</a>
-        <a href="#">Weekly Ad</a>
-        <a href="#">Contact</a>
-        <a href="#">About Us</a>
+        <Link href="/menus">Menus</Link>
+        <Link href="#">Weekly Ad</Link>
+        <Link href="#">Contact</Link>
+        <Link href="#">About Us</Link>
       </nav>
 
       <div className="headerRight">

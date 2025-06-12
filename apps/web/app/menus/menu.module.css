@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 0px;
+  background-color: #452829;
+}
