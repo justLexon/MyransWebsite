@@ -50,7 +50,7 @@
     width: 1450px;
     margin-top: 50px;
     background-color: rgba(0, 0, 0, 0.349);
-    border: 2px solid rgba(255, 255, 255, 0.514);
+    border: 2px solid #d668605b;
     border-radius: 150px;
 }
 
@@ -67,8 +67,8 @@
     margin-bottom: 5px;
     letter-spacing: 2px;
     text-shadow:
-    3px 2px 0 #a72d1183,
+    3px 2px 0 #af4c0f91,
      1px -1px 0 black,
-    5px  4px 0 #a72d1142,
+    5px  4px 0 #af4c0f67,
      1px  1px 0 black;
 }
