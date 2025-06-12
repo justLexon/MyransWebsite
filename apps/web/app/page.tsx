@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 import homeStyles from "./home.module.css";
 
@@ -10,8 +11,16 @@ export default function Home() {
         <section className={homeStyles.sectionContBehind}>
           <div className={homeStyles.sectionCont1}> 
             <div className={homeStyles.no}>
-                <a className={homeStyles.headerT}>Myran's</a>
+              <div className={homeStyles.sect1Head}>
+                <Image 
+                  src="/myranslogo.png" 
+                  alt="logo" 
+                  className={homeStyles.headerT}
+                  width={530}
+                  height={250}
+                />
                 <a className={homeStyles.paraT}>A Southern, Savory Experience</a>
+              </div>
             </div>
           </div>
         </section>
