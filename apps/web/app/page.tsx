@@ -22,6 +22,10 @@ export default function Home() {
                 <a className={homeStyles.paraT}>A Southern, Savory Experience</a>
               </div>
             </div>
+
+            <div className={homeStyles.sect1Desc}>
+              <a>a</a>
+            </div>
           </div>
         </section>
 

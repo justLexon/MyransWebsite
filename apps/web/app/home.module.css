@@ -3,15 +3,15 @@
     justify-content: center;
     align-items: center;
     background-color: #ba5d57;
-    height: 910px;
+    height: 1210px;
     margin-top: 1000px;
-
 }
 
 .sectionCont1 {
     display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 900px;
+    height: 1200px;
     justify-content: center;
     align-self: center;
     text-align: center;
@@ -30,7 +30,7 @@
     justify-content: center;
     align-self: center;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 200px;
     background-color: #452829;
 }
 
@@ -40,7 +40,7 @@
     align-items: center;
     background-color: transparent;
     /* Change margin-top for section1 content on homepage */
-    margin-top: 0px;
+    margin-top: -200px;
 }
 
 .sect1Head {
@@ -63,12 +63,14 @@
     font-weight: 900;
     font-size: 35px;
     color: #a72c11;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.76);
     margin-bottom: 5px;
     letter-spacing: 2px;
-    text-shadow:
-    3px 2px 0 #af4c0f91,
-     1px -1px 0 black,
-    5px  4px 0 #af4c0f67,
-     1px  1px 0 black;
+}
+
+
+.sect1Desc {
+    margin-top: 50px;
+    width: 100vw;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.349);
 }
