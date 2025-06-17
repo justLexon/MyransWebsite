@@ -1,5 +1,5 @@
 .sectionWholeCont {
-    height: 2910px;
+    height: 2210px;
     margin-top: 1100px;
     background-color: aqua;
 }
@@ -9,14 +9,14 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 2910px;
+    height: 2210px;
 }
 
 .sectionCont1 {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 2900px;
+    height: 2200px;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -46,7 +46,7 @@
     align-items: center;
     background-color: transparent;
     /* Change margin-top for section1 content on homepage */
-    margin-top: -750px;
+    margin-top: -50px;
 }
 
 .sect1Head {

@@ -17,25 +17,31 @@ export default function Header() {
         <div className={styles.yes}>
           <div className={styles.midLeft}>
             <div>
-              <a className={styles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
+              <a href='https://maps.app.goo.gl/iikT4Jtu9wKEGA5B7' target="_blank" rel="noopener noreferrer" className={styles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
             </div>
             <a>123-123-4567</a>
           </div>
         </div>
 
         <nav className={styles.footerCenter}>
-          <a href="#">All Rights Reserved.</a>
+          <a>All Rights Reserved.</a>
         </nav>
 
         <div className={styles.scheduleGap}>
           <a>Mon-Sun</a>
           <a>7:00 A.M. - 8:30 P.M.</a>
-          <a className={styles.linkText}><u>Rate Us</u></a>
+          <a href='https://g.co/kgs/1rVDqT2' target="_blank" rel="noopener noreferrer" className={styles.linkText}>
+            <u>Rate Us</u>
+          </a>
         </div>
 
         <div className={styles.footerRight}>
-          <img src="/myranslogo.png" className="myronsLogo" alt="logo" />
-        </div>
+          <a href='https://www.facebook.com/myransmaisondemanger/' target="_blank" rel="noopener noreferrer">
+            <img src="/fbLogo.png" className={styles.fbLogo} />
+          </a>
+          <a href='https://www.facebook.com/myransmaisondemanger/' target="_blank" rel="noopener noreferrer">
+            <img src="/fbLogo.png" className={styles.fbLogo} />
+          </a>        </div>
 
       </div>
     </header>
