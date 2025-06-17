@@ -8,7 +8,8 @@ export default function Home() {
       <div className={styles.background}></div>
 
       <main>
-        <section className={homeStyles.sectionContBehind}>
+        <section className={homeStyles.sectionWholeCont}>
+          <div className={homeStyles.sectionContBehind}>
             <div className={homeStyles.sectionCont1}> 
               <div className={homeStyles.no}>
                 <div className={homeStyles.sect1Head}>
@@ -57,6 +58,7 @@ export default function Home() {
 
               </div>
             </div>
+          </div>
         </section>
 
         <section className={homeStyles.sectionCont2}>

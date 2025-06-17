@@ -1,10 +1,15 @@
+.sectionWholeCont {
+    height: 1210px;
+    margin-top: 1100px;
+    background-color: aqua;
+}
+
 .sectionContBehind{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     height: 1210px;
-    margin-top: 1000px;
 }
 
 .sectionCont1 {
