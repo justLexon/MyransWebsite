@@ -35,7 +35,7 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 140px;
-  background-color: #2516169d;
+  background-color: rgba(0, 0, 0, 0.55);
   z-index: 1000;
 }
 
@@ -54,12 +54,12 @@ a {
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 0px;
   font-family: 'League Spartan', sans-serif;
   font-weight: 900;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.74);
-  font-size: 23px;
+  font-size: 31px;
   background-color: transparent;
 }
 
@@ -74,7 +74,7 @@ a {
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
   gap: 150px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 50px;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.993);
   background-color: transparent;
