@@ -38,10 +38,8 @@ export default function Header() {
         <div className={styles.footerRight}>
           <a href='https://www.facebook.com/myransmaisondemanger/' target="_blank" rel="noopener noreferrer">
             <img src="/fbLogo.png" className={styles.fbLogo} />
-          </a>
-          <a href='https://www.facebook.com/myransmaisondemanger/' target="_blank" rel="noopener noreferrer">
-            <img src="/fbLogo.png" className={styles.fbLogo} />
-          </a>        </div>
+          </a>      
+        </div>
 
       </div>
     </header>
