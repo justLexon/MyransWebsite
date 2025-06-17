@@ -18,6 +18,7 @@
     width: 100vw;
     height: 1200px;
     justify-content: center;
+    align-items: center;
     align-self: center;
     text-align: center;
     background-color: #180c0d;
@@ -45,7 +46,7 @@
     align-items: center;
     background-color: transparent;
     /* Change margin-top for section1 content on homepage */
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 .sect1Head {
@@ -53,7 +54,7 @@
     flex-direction: column;
     justify-content: center;
     width: 1450px;
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: transparent;
 }
 
@@ -77,12 +78,12 @@
     justify-content: space-evenly;
     margin-top: 50px;
     width: 100vw;
-    height: 600px;
-    background-color: rgba(255, 255, 255, 0.349);
+    height: 380px;
+    background-color: transparent;
 }
 
 .imgCont {
-    background-color: rgba(18, 80, 18, 0.884);
+    background-color: transparent;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -95,5 +96,31 @@
 
 .text1Cont {
     width: 450px;
-    background-color: red;
+    margin-top: 15px;
+    font-family: "Calistoga", serif;
+    font-size: 37px;
+    color: white;
+    background-color: transparent;
+}
+
+.CajunBoldText {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 750;
+    font-size: 110px;
+    color: #a72c11;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow:
+        4px 4px 0 #af4c0fa8,
+        9px  9px 0 #af4c0f73,
+        1px  1px 0 #e7360e00,
+        0px  0px 0 #e7360e00;
+}
+
+.fullMenuButton {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30%;
 }

@@ -32,7 +32,7 @@ export default function Home() {
                   </div>
 
                   <div className={homeStyles.text1Cont}>
-                    <a>sum cruwfish cuh</a>
+                    <a>Seasonal Crawfish!</a>
                   </div>
                 </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
                   </div>
 
                   <div className={homeStyles.text1Cont}>
-                    <a>sum fries cuh</a>
+                    <a>Fresh Fries!</a>
                   </div>
                 </div>
 
@@ -52,24 +52,22 @@ export default function Home() {
                   </div>
 
                   <div className={homeStyles.text1Cont}>
-                    <a>sum tenders cuh</a>
+                    <a>Awesome Tenders!</a>
                   </div>
                 </div>
-
               </div>
+
+              <div className={homeStyles.CajunBoldText}>
+                  <a>Cajun Flavor, All Day</a>
+              </div>
+            
+              <div className={homeStyles.fullMenuButton}>
+                <a>Full Menu</a>
+              </div>
+
             </div>
           </div>
         </section>
-
-        <section className={homeStyles.sectionCont2}>
-           <div className={homeStyles.no}>
-              <a>yoGurt</a>
-              <a>yoGurt</a>
-              <a>yoGurt</a>
-           </div>
-        </section>
-
-
       </main>
 
     </div>
