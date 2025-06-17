@@ -68,6 +68,34 @@ export default function Home() {
                 </div>
               </div>
 
+
+              {/* add section line here from canva(need img) */}
+
+              <div className={homeStyles.visitText}>
+                <a>Visit Us!</a>
+              </div>
+
+              <div className={homeStyles.visitCont}>
+                <div>
+                  <a>Dine with us @</a>
+                  <a className={homeStyles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
+                </div>
+
+                <div className={homeStyles.scheduleGap}>
+                  <a>Mon-Sun</a>
+                  <a>7:00 A.M. - 8:30 P.M.</a>
+                </div>
+
+                <div className={homeStyles.callButtonCont}>
+                  <div className={homeStyles.callButton}>
+                    <img src="callIcon.png"></img>
+                    <a>Call for Pickup Now!</a>
+                  </div>
+                </div>
+
+              </div>
+
+
             </div>
           </div>
         </section>
