@@ -14,17 +14,27 @@ export default function Header() {
           <img src="/myranslogo.png" className="myronsLogo" alt="logo" />
         </div>
 
-        <nav className={styles.footerCenter}>
-          <a href="#">Lexon</a>
-          <a href="#">All Rights Reserved.</a>
-           <div className={styles.scheduleGap}>
-              <a>Mon-Sun</a>
-              <a>7:00 A.M. - 8:30 P.M.</a>
+        <div className={styles.yes}>
+          <div className={styles.midLeft}>
+            <div>
+              <a className={styles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
             </div>
+            <a>123-123-4567</a>
+          </div>
+        </div>
+
+        <nav className={styles.footerCenter}>
+          <a href="#">All Rights Reserved.</a>
         </nav>
 
+        <div className={styles.scheduleGap}>
+          <a>Mon-Sun</a>
+          <a>7:00 A.M. - 8:30 P.M.</a>
+          <a className={styles.linkText}><u>Rate Us</u></a>
+        </div>
+
         <div className={styles.footerRight}>
-          <a>Order Now!</a>
+          <img src="/myranslogo.png" className="myronsLogo" alt="logo" />
         </div>
 
       </div>

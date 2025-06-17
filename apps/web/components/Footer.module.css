@@ -4,14 +4,13 @@
   width: 100%;
   margin-top: 0px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   height: 140px;
   background-color: #452829;
 }
 
 .footerCont {
-  background-color: green;
+  background-color: transparent;
   width: 1800px;
   display: flex;
   justify-content: space-evenly;
@@ -20,43 +19,63 @@
 
 .footerLeft {
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
   background-color: transparent;
 }
 
 .footerRight {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Calistoga';
   font-weight: 1000;
   color: #a72c11;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
-  font-size: 23px;
+  font-size: 20px;
   background-color: transparent;
 }
 
 .footerCenter {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-family: 'League Spartan', sans-serif;
-  font-size: 41px;
+  font-family: 'Calistoga';
+  font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
-  gap: 50px;
   color: white;
   background-color: transparent;
 }
 
 .scheduleGap {
+  font-family: 'Calistoga';
+  font-size: 17px;
+  color: white;
   display: flex;
-  gap: 10px
-  
+  flex-direction: column;
+  gap: 5px;
+}
+
+.midLeft {
+  font-family: 'Calistoga';
+  font-size: 17px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #452829;
+}
+
+.linkText {
+  color: #fa7a71;
+}
+
+.yes {
+  width: auto;
+  background-color: wheat;
 }
