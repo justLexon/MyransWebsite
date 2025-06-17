@@ -1,5 +1,5 @@
 .sectionWholeCont {
-    height: 1210px;
+    height: 1910px;
     margin-top: 1100px;
     background-color: aqua;
 }
@@ -9,14 +9,14 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 1210px;
+    height: 1910px;
 }
 
 .sectionCont1 {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 1200px;
+    height: 1900px;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -46,7 +46,7 @@
     align-items: center;
     background-color: transparent;
     /* Change margin-top for section1 content on homepage */
-    margin-top: -150px;
+    margin-top: -650px;
 }
 
 .sect1Head {
@@ -119,8 +119,30 @@
 }
 
 .fullMenuButton {
-    width: 200px;
-    height: 50px;
+    font-family: 'Calistoga';
+    font-size: 35px;
+    color: #452829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 100px;
+    margin-top: 50px;
     background-color: white;
-    border-radius: 30%;
+    border-radius: 50px;
+}
+
+.fullMenuButton img {
+    width: auto;
+    height: 60px;
+}
+
+.WholeButtonMenu {
+    height: 70px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

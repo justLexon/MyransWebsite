@@ -62,7 +62,10 @@ export default function Home() {
               </div>
             
               <div className={homeStyles.fullMenuButton}>
-                <a>Full Menu</a>
+                <div className={homeStyles.WholeButtonMenu}>
+                  <img src="fullMenuIcon.png"></img>
+                  <a>Full Menu</a>
+                </div>
               </div>
 
             </div>
