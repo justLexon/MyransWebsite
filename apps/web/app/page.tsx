@@ -61,12 +61,15 @@ export default function Home() {
                   <a>Cajun Flavor, All Day</a>
               </div>
             
-              <div className={homeStyles.fullMenuButton}>
-                <div className={homeStyles.WholeButtonMenu}>
-                  <img src="fullMenuIcon.png"></img>
-                  <a>Full Menu</a>
+              
+              <a href='/menus'>
+                <div className={homeStyles.fullMenuButton}>
+                    <div className={homeStyles.WholeButtonMenu}>
+                      <img src="fullMenuIcon.png"></img>
+                      <p>Full Menu</p>
+                    </div>
                 </div>
-              </div>
+              </a>
 
 
               {/* add section line here from canva(need img) */}
@@ -78,7 +81,7 @@ export default function Home() {
               <div className={homeStyles.visitCont}>
                 <div>
                   <a>Dine with us @</a>
-                  <a className={homeStyles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
+                  <a href='https://maps.app.goo.gl/iikT4Jtu9wKEGA5B7' target="_blank" rel="noopener noreferrer" className={homeStyles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
                 </div>
 
                 <div className={homeStyles.scheduleGap}>
@@ -86,12 +89,14 @@ export default function Home() {
                   <a>7:00 A.M. - 8:30 P.M.</a>
                 </div>
 
-                <div className={homeStyles.callButtonCont}>
-                  <div className={homeStyles.callButton}>
-                    <img src="callIcon.png"></img>
-                    <a>Call for Pickup Now!</a>
+                <a href="tel:+3377545064">
+                  <div className={homeStyles.callButtonCont}>
+                    <div className={homeStyles.callButton}>
+                      <img src="callIcon.png"></img>
+                      <p>Call for Pickup Now!</p>
+                    </div>
                   </div>
-                </div>
+                </a>
 
               </div>
 

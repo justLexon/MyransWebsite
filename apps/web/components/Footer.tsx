@@ -19,7 +19,7 @@ export default function Header() {
             <div>
               <a href='https://maps.app.goo.gl/iikT4Jtu9wKEGA5B7' target="_blank" rel="noopener noreferrer" className={styles.linkText}><u>1023 Neblett St, Arnaudville LA 70512</u></a>
             </div>
-            <a>123-123-4567</a>
+            <a>(337)-754-5064</a>
           </div>
         </div>
 
