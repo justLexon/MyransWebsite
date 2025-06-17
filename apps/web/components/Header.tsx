@@ -40,8 +40,8 @@ export default function Header() {
 
       <nav className="headerNav">
         <Link href="/menus">Menus</Link>
-        <Link href="#">Weekly Ad</Link>
-        <Link href="#">Contact</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="#">Careers</Link>
         <Link href="#">About Us</Link>
       </nav>
 

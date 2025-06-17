@@ -6,5 +6,22 @@
   justify-content: center;
   min-height: 100svh;
   padding: 0px;
-  background-color: #452829;
+  background-color: #1e0e0f;
+}
+
+.backCont{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  background-color: transparent;
+  transform: rotate(-1deg);
+
+}
+
+.menuCont {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 500px;
+  height: 700px;
+  background-color: white;
 }
