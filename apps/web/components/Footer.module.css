@@ -1,16 +1,24 @@
-.headerMain {
+.footerMain {
   bottom: 0;
   left: 0;
   width: 100%;
   margin-top: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 140px;
-  background-color: #251616;
+  background-color: #452829;
 }
 
-.headerLeft {
+.footerCont {
+  background-color: green;
+  width: 1800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerLeft {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -19,13 +27,12 @@
   background-color: transparent;
 }
 
-.headerRight {
+.footerRight {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  margin-right: 50px;
   font-family: 'Inter', sans-serif;
   font-weight: 1000;
   color: #a72c11;
@@ -34,7 +41,7 @@
   background-color: transparent;
 }
 
-.headerNav {
+.footerCenter {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,10 +50,13 @@
   font-weight: 900;
   text-transform: uppercase;
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
-  gap: 150px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #a72c11;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.993);
+  gap: 50px;
+  color: white;
   background-color: transparent;
+}
+
+.scheduleGap {
+  display: flex;
+  gap: 10px
+  
 }
