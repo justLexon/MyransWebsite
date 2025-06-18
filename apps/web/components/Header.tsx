@@ -9,11 +9,13 @@ import styles from './Header.module.css';
 export default function Header() {
   const pathname = usePathname();
   const isHome = pathname === '/';
-
   const [scrolled, setScrolled] = useState(false);
+
 
   useEffect(() => {
     if (!isHome) return;
+
+    setScrolled(window.scrollY > 70);
 
     const onScroll = () => {
       setScrolled(window.scrollY > 70);
@@ -51,11 +53,11 @@ export default function Header() {
       </div>
 
 
+
+
       {isHome && (
         <div
-          className={`${styles.heroImageWrapper2} ${
-            scrolled ? styles.hidden : ''
-          }`}
+          className={`${styles.heroImageWrapper2} ${scrolled ? styles.hidden : ''}`}
         >
           <img src="/sign.png" alt="hero" className={styles.heroImage2} />
           <div className={styles.extraHeader}>
@@ -79,18 +81,6 @@ export default function Header() {
           </div>
         </div>
       )}
-
-
-
-      {/* {isHome && !scrolled && (
-        <div className={styles.heroImageWrapper}>
-          <img src="/sign.png" alt="hero" className={styles.heroImage} />
-          <div className={styles.scrollBG}>Scroll</div>
-        </div>
-      )} */}
-
-
-
 
     </header>
   );
