@@ -9,21 +9,46 @@ import styles from './Header.module.css';
 export default function Header() {
   const pathname = usePathname();
   const isHome = pathname === '/';
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(true);
+
 
 
   useEffect(() => {
-    if (!isHome) return;
+    // Only proceed if it's the homepage
+    if (!isHome) {
+      // If navigating away from home, reset 'scrolled' to true to hide it for future home visits
+      setScrolled(true);
+      return;
+    }
 
+    // On mount, immediately check the current scroll position.
+    // If we're at the top (scrollY <= 70), set scrolled to false to show it.
+    // Otherwise, it stays true (hidden).
     setScrolled(window.scrollY > 70);
 
+    // Set up scroll event listener to update 'scrolled' state
     const onScroll = () => {
       setScrolled(window.scrollY > 70);
     };
 
     window.addEventListener('scroll', onScroll);
+
+    // Clean up the event listener when the component unmounts or isHome changes
     return () => window.removeEventListener('scroll', onScroll);
   }, [isHome]);
+
+  // useEffect(() => {
+  //   if (!isHome) return;
+
+  //   setScrolled(window.scrollY > 70);
+
+  //   const onScroll = () => {
+  //     setScrolled(window.scrollY > 70);
+  //   };
+
+  //   window.addEventListener('scroll', onScroll);
+  //   return () => window.removeEventListener('scroll', onScroll);
+  // }, [isHome]);
 
 
   return (
