@@ -10,7 +10,6 @@
 }
 
 .footerCont {
-  background-color: transparent;
   width: 1700px;
   display: flex;
   justify-content: space-evenly;
@@ -22,7 +21,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
 }
 
 .footerRight {
@@ -34,7 +32,6 @@
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.267);
   font-size: 20px;
   gap: 10px;
-  background-color: transparent;
 }
 
 .footerRight img {
@@ -51,7 +48,6 @@
   font-weight: 500;
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
   color: white;
-  background-color: transparent;
 }
 
 .scheduleGap {
@@ -80,12 +76,6 @@
   color: #fa7a71;
 }
 
-.yes {
-  width: auto;
-  background-color: wheat;
-}
-
 .fbLogo {
   width: 65px;
-  background-color: green;
 }
