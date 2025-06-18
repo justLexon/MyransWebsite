@@ -32,7 +32,7 @@
   align-items: center;
 
   /* fade & scale transitions */
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   opacity: 1;
 }
 
@@ -42,11 +42,7 @@
   pointer-events: none; /* Prevents interaction when hidden */
 }
 
-.heroImageWrapper2.hidden {
-  opacity: 0;
-  transform: translateX(-50%) scale(1) translateY(-10px);
-  pointer-events: none;     /* ignore clicks when hidden */
-}
+
 
 /* the round image */
 .heroImage2 {
