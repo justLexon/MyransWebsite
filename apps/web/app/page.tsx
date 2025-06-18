@@ -102,7 +102,10 @@ export default function Home() {
                     </div>
                   </div>
                 </a>
+              </div>
 
+              <div>
+                <img src="starReview.png"></img>
               </div>
 
 

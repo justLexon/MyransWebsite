@@ -1,5 +1,5 @@
 .sectionWholeCont {
-    height: 2310px;
+    height: 2610px;
     margin-top: 1000px;
     background-color: aqua;
 }
@@ -9,14 +9,14 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 2310px;
+    height: 2610px;
 }
 
 .sectionCont1 {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 2300px;
+    height: 2600px;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -173,6 +173,7 @@
     border: 4px solid rgba(255, 255, 255, 0.699);
     border-radius: 60px;
     gap: 60px;
+    margin-bottom: 80px;
 }
 
 .scheduleGap {
