@@ -37,15 +37,18 @@
   background-color: transparent;
 }
 
+.footerRight img {
+  width: 80px;
+}
+
 .footerCenter {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Calistoga';
   font-size: 20px;
-  padding-right: 40px;
+  padding-right: 20px;
   font-weight: 900;
-  text-transform: uppercase;
   /* Change Padding and Gap to make center Header Nav bigger or smaller */
   color: white;
   background-color: transparent;
