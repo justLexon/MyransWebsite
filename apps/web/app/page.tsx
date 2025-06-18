@@ -74,6 +74,11 @@ export default function Home() {
 
               {/* add section line here from canva(need img) */}
 
+              <div className={homeStyles.redLine}>
+                <img src="redline1200px.png"></img>
+              </div>
+
+
               <div className={homeStyles.visitText}>
                 <a>Visit Us!</a>
               </div>
