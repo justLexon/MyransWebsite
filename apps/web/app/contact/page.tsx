@@ -31,6 +31,10 @@ export default function ContactPage() {
                         <p>We process all business inquiries via email: ineedtheiremail@please.com</p>
                     </div>
 
+                    <div className={styles.redline}>
+                        <img src="redline1200px.png"></img>
+                    </div>
+
                     <div className={styles.textFormat}>
                         <p>Interested in a career at Myran’s? Contact us to join our staff here.</p>
                     </div>
