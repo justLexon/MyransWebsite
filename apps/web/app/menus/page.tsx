@@ -5,17 +5,24 @@ export default function MenuPage() {
     <div className={styles.page}>
 
       <main>
-        <section className={styles.backCont}>
-           <div className={styles.menuCont}>
-              yo Gurt
-           </div>
+        <div className={styles.alignPage}>
+          <section className={styles.mainHeader}>
+            <div>
+                Our Story
+            </div>
+          </section>
 
-           <div className={styles.menuCont}>
-              mud Salad
-           </div>
-        </section>
+          <section className={styles.backCont}>
+            <div className={styles.menuCont}>
+                yo Gurt
+            </div>
 
+            <div className={styles.menuCont}>
+                mud Salad
+            </div>
+          </section>
 
+        </div>
       </main>
 
     </div>

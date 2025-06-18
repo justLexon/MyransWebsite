@@ -9,6 +9,25 @@
   background-color: #1e0e0f;
 }
 
+.alignPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainHeader {
+  font-family: 'Calistoga', sans-serif;
+  font-weight: 200; 
+  font-size: 150px;
+  margin-top: 140px;
+  color: #a72c11;
+  text-shadow:
+      2px 2px 0 #ffffff,
+      0px 0px 0 #af4c0f73,
+      0px  0px 0 #e7360e00,
+      0px  0px 0 #e7360e00;
+}
+
 .backCont{
   display: flex;
   justify-content: space-between;
@@ -19,7 +38,7 @@
 }
 
 .menuCont {
-  margin-top: 200px;
+  margin-top: 40px;
   margin-bottom: 100px;
   width: 500px;
   height: 700px;

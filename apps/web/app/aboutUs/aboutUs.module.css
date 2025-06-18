@@ -18,8 +18,8 @@
 .mainHeader {
   font-family: 'Calistoga', sans-serif;
   font-weight: 200; 
-  font-size: 225px;
-  margin-top: 110px;
+  font-size: 150px;
+  margin-top: 140px;
   color: #a72c11;
   text-shadow:
       2px 2px 0 #ffffff,
@@ -38,12 +38,11 @@
   align-items: center;
   text-align: left;
   color: white;
-  width: 1000px;
-  height: 800px;
-  border: 4px solid rgba(255, 255, 255, 0.699);
-  border-radius: 60px;
+  width: 2100px;
+  height: 500px;
+  border-radius: 4000px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
   gap: 30px;
   line-height: 45px;
 }
@@ -52,6 +51,8 @@
   width: 900px;
 }
 
-.redline img{
-  width: 900px;
+.circleImg {
+  width: 1800px;
+  margin-top: 140px;
+  margin-bottom: 30px;
 }
