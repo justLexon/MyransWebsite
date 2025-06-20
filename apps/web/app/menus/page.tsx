@@ -7,8 +7,8 @@ export default function MenuPage() {
       <main>
         <div className={styles.alignPage}>
           <div className={styles.imgHeader}>
-            <img src="menuHeader.png"></img>
-          </div>
+            <img src="menuHeader1.png"></img>
+          </div>          
           
           <section className={styles.mainHeader}>
             <p className={styles.text}>

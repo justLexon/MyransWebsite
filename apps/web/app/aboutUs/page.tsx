@@ -19,7 +19,7 @@ export default function AboutUsPage() {
 
           <section className={styles.subHeader}>
             <div>
-              help
+              <img src="aboutUsCardImg.png"></img>
             </div>
 
           </section>
