@@ -11,10 +11,14 @@ export default function MenuPage() {
           </div>
           
           <section className={styles.mainHeader}>
-            <div>
+            <p className={styles.text}>
                 Menu
-            </div>
+            </p>
           </section>
+
+          <div className={styles.subtitle}>
+            Delicious Is The Standard
+          </div>
 
           <section className={styles.backCont}>
             <div>
