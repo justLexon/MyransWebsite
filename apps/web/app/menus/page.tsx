@@ -17,7 +17,8 @@ export default function MenuPage() {
           </section>
 
           <div className={styles.subtitle}>
-            Delicious Is The Standard
+            <p>Delicious Is The Standard</p>
+            <p className={styles.click}>(click to enlarge)</p>
           </div>
 
           <section className={styles.backCont}>

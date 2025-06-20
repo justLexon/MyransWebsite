@@ -15,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode}) {
       <head>
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Calistoga&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
       </head>
       <body>
         <Header />
