@@ -46,10 +46,9 @@ export default function ContactPage() {
 
                     <div className={styles.redline}>
                         <a href="tel:+3377545064">
-                            <div className={styles.callButtonCont}>
-                                <div className={styles.callButton}>
-                                    {/* <img src="callIcon.png"></img> */}
-                                    <p>Email Us</p>
+                            <div className={styles.emailButtonCont}>
+                                <div className={styles.emailButton}>
+                                    <img src="emailLogo.png"></img>
                                 </div>
                             </div>
                         </a>

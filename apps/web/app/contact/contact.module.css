@@ -95,3 +95,23 @@
 .callButton p {
   font-weight: normal;
 }
+.emailButtonCont {
+    font-family: 'Calistoga';
+    font-size: 30px;
+    color: #452829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.emailButton img{
+  width: auto;
+  height: 70px;
+  margin-top: 8px;
+}
