@@ -15,17 +15,27 @@
   align-items: center;
 }
 
-.mainHeader {
-  font-family: 'Calistoga', sans-serif;
-  font-weight: 200; 
-  font-size: 150px;
+.imgHeader {
   margin-top: 140px;
-  color: #a72c11;
+}
+
+.mainHeader {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600; 
+  font-size: 200px;
+  margin-top: -195px;
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.267);
+  color: #d66760;
   text-shadow:
       2px 2px 0 #ffffff,
       0px 0px 0 #af4c0f73,
       0px  0px 0 #e7360e00,
       0px  0px 0 #e7360e00;
+  border: 6px solid rgb(255, 255, 255);
+  margin-bottom: 100px;
 }
 
 .backCont{
@@ -33,8 +43,7 @@
   justify-content: space-between;
   width: 1000px;
   background-color: transparent;
-  transform: rotate(-1deg);
-
+  margin-bottom: 50px;
 }
 
 .menuCont {

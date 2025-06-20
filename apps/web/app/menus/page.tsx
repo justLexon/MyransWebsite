@@ -6,19 +6,23 @@ export default function MenuPage() {
 
       <main>
         <div className={styles.alignPage}>
+          <div className={styles.imgHeader}>
+            <img src="menuHeader.png"></img>
+          </div>
+          
           <section className={styles.mainHeader}>
             <div>
-                Our Story
+                Menu
             </div>
           </section>
 
           <section className={styles.backCont}>
-            <div className={styles.menuCont}>
-                yo Gurt
+            <div>
+                <img src="menuFront.png"></img>
             </div>
 
-            <div className={styles.menuCont}>
-                mud Salad
+            <div>
+                <img src="menuBack.png"></img>
             </div>
           </section>
 
