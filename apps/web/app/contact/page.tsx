@@ -21,9 +21,22 @@ export default function ContactPage() {
                         </p>
                     </div>
 
+                    <div>
+                        <a href="tel:+3377545064">
+                            <div className={styles.callButtonCont}>
+                                <div className={styles.callButton}>
+                                    <img src="callIcon.png"></img>
+                                    <p>Call for Pickup Now!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                     <div className={styles.textFormat}>
                         <p>You can find us at 1023 Neblett St, Arnaudville, Louisiana. 
-                            Click to open the address in Google Maps or Apple Maps.
+                            Click to open the address in&nbsp;
+                            <a href='https://maps.app.goo.gl/iikT4Jtu9wKEGA5B7' target="_blank" rel="noopener noreferrer" className={styles.linkText}><u>Google Maps</u></a>
+                            .
                         </p>
                     </div>
 
@@ -32,15 +45,27 @@ export default function ContactPage() {
                     </div>
 
                     <div className={styles.redline}>
-                        <img src="redline1200px.png"></img>
+                        <a href="tel:+3377545064">
+                            <div className={styles.callButtonCont}>
+                                <div className={styles.callButton}>
+                                    {/* <img src="callIcon.png"></img> */}
+                                    <p>Email Us</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
                     <div className={styles.textFormat}>
-                        <p>Interested in a career at Myran’s? Contact us to join our staff here.</p>
+                        <p>Interested in a career at Myran’s? Contact us to join our staff&nbsp;
+                            <a href='/careers' className={styles.linkText}><u>here</u></a>
+                            .
+                        </p>
                     </div>
 
                     <div className={styles.textFormat}>
-                        <p>Want to tell us about your dining experience? Leave us a review!</p>
+                        <p>Want to tell us about your dining experience?&nbsp;
+                            <a href='https://g.co/kgs/1rVDqT2' target="_blank" rel="noopener noreferrer" className={styles.linkText}><u>Leave us a review!</u></a>
+                        </p>
                     </div>
                 </div>
             </section>

@@ -39,19 +39,59 @@
   text-align: left;
   color: white;
   width: 1000px;
-  height: 800px;
+  height: 990px;
   border: 4px solid rgba(255, 255, 255, 0.699);
   border-radius: 60px;
   margin-top: 50px;
   margin-bottom: 100px;
-  gap: 30px;
+  gap: 10px;
   line-height: 45px;
 }
 
 .textFormat {
   width: 900px;
+  margin-top: 30px;
 }
 
 .redline img{
   width: 900px;
+}
+
+.linkText {
+  color: #d66760;
+}
+
+
+.callButtonCont {
+    font-family: 'Calistoga';
+    font-size: 30px;
+    color: #452829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.callButtonCont img {
+    width: auto;
+    height: 65px;
+}
+
+.callButton {
+    height: 70px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.callButton p {
+  font-weight: normal;
 }
