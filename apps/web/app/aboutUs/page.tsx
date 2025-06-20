@@ -1,33 +1,30 @@
 import styles from "./aboutUs.module.css";
 
-export default function AbousUsPage() {
+export default function AboutUsPage() {
   return (
     <div className={styles.page}>
 
       <main>
         <div className={styles.alignPage}>
-            <section className={styles.mainHeader}>
-                <div>
-                    Our Story
-                </div>
-            </section>
+          <div className={styles.imgHeader}>
+            <img src="aboutUsheader.png"></img>
+          </div>
+          
+          <section className={styles.mainHeader}>
+            <p>
+                Our Story
+            </p>
+          </section>
 
-            <section>
-                <div className={styles.box}>
-                    <div>
-                        <img src="aboutUsImg.png" alt="hero" className={styles.circleImg} />
-                    </div>
 
-                    <div className={styles.textFormat}>
-                        <p>You can find us at 1023 Neblett St, Arnaudville, Louisiana. 
-                            Click to open the address in Google Maps or Apple Maps.
-                        </p>
-                    </div>
-                    
-                </div>
-            </section>
+          <section className={styles.subHeader}>
+            <div>
+              help
+            </div>
+
+          </section>
+
         </div>
-
       </main>
 
     </div>
