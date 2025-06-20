@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.headerCont {
+  margin-top: 227px;
+}
+
 .imgHeader {
   margin-top: -80px;
 }
@@ -26,11 +30,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -590px;
+  margin-top: -460px;
   width: 100svw;
-  height: 590px;
-  background-color: rgba(255, 255, 255, 0.267);
-  color: #6f1200;
+  height: 460px;
+  background-color: rgba(0, 0, 0, 0.705);
+  color: #d66760;
   text-shadow:
       2px 2px 0 #ffffff,
       0px 0px 0 #af4c0f73,
@@ -43,4 +47,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.textCont {
+  font-family: 'Calistoga', sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d66760;
+  width: 700px;
+  text-align: justify;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  gap: 50px;
 }
