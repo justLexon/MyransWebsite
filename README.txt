@@ -4,4 +4,4 @@ This project was built using Next.js, TypeScript, and CSS, and hosted on Firebas
 
 View the site here: https://myrans-1229f.web.app/
 
-Built by Lexon.
+Built by Lexon Schexnider and Logan Schexnider.
